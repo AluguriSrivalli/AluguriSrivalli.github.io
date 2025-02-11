@@ -1,0 +1,174 @@
+/* styles.css */
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    header h1 {
+      font-size: 28px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  
+    section p, section ul {
+      font-size: 16px;
+    }
+  
+    #skills ul li {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .project, .job, .degree {
+      padding: 10px;
+    }
+  }
+  
+  /* Hobbies Section */
+#hobbies .gallery {
+    margin-top: 20px;
+  }
+  
+  #hobbies .art-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  #hobbies .art-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #hobbies .dance-animation {
+    margin-top: 30px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  section p, section ul {
+    font-size: 18px;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    background: #77aaff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .project, .job, .degree {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #77aaff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #contact input, #contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #77aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background: #5599ff;
+  }
